@@ -1,13 +1,17 @@
-import React from 'react';
+import { Button, Card, Typography } from "@mui/material";
+import React from "react";
+
+interface BasicCardProps {
+}
 
 function App() {
   return (
-    <div>
-      <p>
-        Hello World!
-      </p>
-      <p>Test</p>
-    </div>
+    <>
+      <Card >
+        <Typography>Hello world!</Typography>
+        <Button variant="contained">Click me!</Button>
+      </Card>
+    </>
   );
 }
 
