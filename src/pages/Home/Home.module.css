@@ -1,0 +1,17 @@
+.container {
+    padding-top: 100px;
+    background-color: brown;
+    height: 100hv;
+    width: 100hv;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.card {
+    min-width: 80px;
+    min-height: 80px;
+    flex: 1;
+    margin: 10px;
+}

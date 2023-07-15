@@ -1,10 +1,9 @@
 import { Card, Container, Typography } from "@mui/material";
-import { cardStyle } from "../components/styles";
 
 function Contacts() {
   return (
     <>
-      <Container sx={cardStyle}>
+      <Container>
         <Card>
           <Typography>Tel: 1124234235</Typography>
         </Card>

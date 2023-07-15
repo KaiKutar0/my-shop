@@ -1,12 +1,11 @@
 import { Card, Container, Typography } from "@mui/material";
-import { cardStyle } from "../components/styles";
 
-function Home() {
+function About() {
   return (
     <>
-      <Container sx={cardStyle}>
+      <Container>
         <Card>
-          <Typography>Home</Typography>
+          <Typography>About</Typography>
         </Card>
 
         <Card>
@@ -17,4 +16,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;
