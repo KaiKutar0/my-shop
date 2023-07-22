@@ -1,15 +1,16 @@
-import { Box } from "@mui/material";
 import React from "react";
+import logo from "../assets/img/logo.svg";
 
 function Logo() {
   return (
-    <Box
-    sx={{
-        minWidth: '40px',
-        minHeight: '40px',
-    }}>
-      <img src="src/assets/img/logo.png" alt="hui"/>
-    </Box>
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      margin: '10px'
+      }}>
+      <img src={logo} alt="hui" style={{maxWidth: '45px', maxHeight: '45px'}}/>
+    </div>
   );
 }
 

@@ -1,17 +1,18 @@
 .container {
-    padding-top: 100px;
     background-color: brown;
     height: 100hv;
     width: 100hv;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-around;
     flex-direction: column;
 }
 
 .card {
+    background-color: aqua;
     min-width: 80px;
     min-height: 80px;
     flex: 1;
     margin: 10px;
+    border-radius: 4px;
 }

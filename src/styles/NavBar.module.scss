@@ -1,0 +1,50 @@
+$backgroundColor: #1d36db;
+$linkHoverColor:#192eb5;
+$primaryTextColor: white;
+$textHoverColor: #c7c8c9;
+
+.navLink {
+  margin: 0px 20px;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  background-color: $backgroundColor;
+  padding: 0;
+
+  .textPrimary {
+    flex: 1;
+    color: $primaryTextColor;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 5px;
+  }
+
+
+
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+    a:-webkit-any-link {
+      text-decoration: none;
+      color: $primaryTextColor;
+      text-decoration-line: none;
+      border-radius: 10%;
+      margin-right: 15px;
+      min-width: 90px;
+      p {
+        margin-left: 15px;
+        font-weight: 800;
+        font-size: 20px;
+      }
+    }
+    a:hover {
+        color: $textHoverColor;
+        background-color: $linkHoverColor;
+    }
+  }
+}
